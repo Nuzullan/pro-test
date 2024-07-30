@@ -39,4 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     changeColorBtn.addEventListener('click', changeBackgroundColor);
+    window.addEventListener('click', changeBackgroundColor);
 });
+
